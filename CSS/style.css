@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+h1,
+h2 {
+  color: antiquewhite;
+  text-align: center;
+}
+.Austrian_Flag {
+  background: linear-gradient(to top, red 033%, white 33% 66%, red 66% 100%);
+}
+.Austrian_Flag::before {
+  content: "Austrian Flag";
+  color: antiquewhite;
+  font-size: small;
+  padding: 0px 0px 0px 18px;
+}
+
+.dimensions {
+  width: 400px;
+  height: 280px;
+  margin-top: 10px;
+  margin-right: 20px;
+  display: inline-block;
+  border: solid 1px greenyellow;
+}
+.Belgian_Flag {
+  background: linear-gradient(
+    to right,
+    black 0 33%,
+    yellow 33% 66%,
+    red 66% 100%
+  );
+}
+.Belgian_Flag::before {
+  content: "Belgian Flag";
+  color: antiquewhite;
+  font-size: small;
+  padding: 0px 0px 0px 23px;
+}
